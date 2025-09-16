@@ -1,0 +1,21 @@
+name: causalML
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pip
+  - jupyter
+  - numpy 
+  - pandas
+  - seaborn
+  - matplotlib
+  - scikit-learn
+  - scipy
+  - networkx
+  - statsmodels
+  - pgmpy
+  - pygraphviz
+  - pip:
+      - dowhy
+      - econml
