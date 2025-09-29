@@ -3,7 +3,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python
+  - python=3.11
   - pip
   - jupyter
   - numpy 
@@ -14,8 +14,7 @@ dependencies:
   - scipy
   - networkx
   - statsmodels
-  - pgmpy
   - pygraphviz
   - pip:
+      - pgmpy
       - dowhy
-      - econml
